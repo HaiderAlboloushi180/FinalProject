@@ -58,6 +58,32 @@
 		D5C5752724C37A5F004C9C9D /* Tutor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5C5752624C37A5F004C9C9D /* Tutor.swift */; };
 		D5C5752B24C383E9004C9C9D /* TutorsListTableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5C5752A24C383E9004C9C9D /* TutorsListTableVC.swift */; };
 		D5C5752D24C38D5C004C9C9D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D5C5752C24C38D5C004C9C9D /* GoogleService-Info.plist */; };
+		D5C5752F24C3AE7A004C9C9D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5C5752E24C3AE7A004C9C9D /* ViewController.swift */; };
+		D5C5753524C3AE8D004C9C9D /* QuizVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5C5753024C3AE8D004C9C9D /* QuizVC.swift */; };
+		D5C5753624C3AE8D004C9C9D /* SubjectTableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5C5753124C3AE8D004C9C9D /* SubjectTableVC.swift */; };
+		D5C5753724C3AE8D004C9C9D /* QuizTableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5C5753224C3AE8D004C9C9D /* QuizTableVC.swift */; };
+		D5C5753824C3AE8D004C9C9D /* LessonVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5C5753324C3AE8D004C9C9D /* LessonVC.swift */; };
+		D5C5753924C3AE8D004C9C9D /* SubjectCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5C5753424C3AE8D004C9C9D /* SubjectCell.swift */; };
+		D5C5754D24C3AEFD004C9C9D /* Capitalization.pdf in Resources */ = {isa = PBXBuildFile; fileRef = D5C5753B24C3AEFC004C9C9D /* Capitalization.pdf */; };
+		D5C5754E24C3AEFD004C9C9D /* قراءة جزء ٢.pdf in Resources */ = {isa = PBXBuildFile; fileRef = D5C5753C24C3AEFC004C9C9D /* قراءة جزء ٢.pdf */; };
+		D5C5754F24C3AEFD004C9C9D /* قراءة جزء ٣.pdf in Resources */ = {isa = PBXBuildFile; fileRef = D5C5753D24C3AEFC004C9C9D /* قراءة جزء ٣.pdf */; };
+		D5C5755024C3AEFD004C9C9D /* قراءة جزء ١.pdf in Resources */ = {isa = PBXBuildFile; fileRef = D5C5753E24C3AEFC004C9C9D /* قراءة جزء ١.pdf */; };
+		D5C5755124C3AEFD004C9C9D /* Chemistry.pdf in Resources */ = {isa = PBXBuildFile; fileRef = D5C5753F24C3AEFC004C9C9D /* Chemistry.pdf */; };
+		D5C5755224C3AEFD004C9C9D /* Points, Lines, and Planes.pdf in Resources */ = {isa = PBXBuildFile; fileRef = D5C5754024C3AEFC004C9C9D /* Points, Lines, and Planes.pdf */; };
+		D5C5755324C3AEFD004C9C9D /* Physical Science.pdf in Resources */ = {isa = PBXBuildFile; fileRef = D5C5754124C3AEFC004C9C9D /* Physical Science.pdf */; };
+		D5C5755424C3AEFD004C9C9D /* صلاة الكسوف.pdf in Resources */ = {isa = PBXBuildFile; fileRef = D5C5754224C3AEFC004C9C9D /* صلاة الكسوف.pdf */; };
+		D5C5755524C3AEFD004C9C9D /* Right Triangles.pdf in Resources */ = {isa = PBXBuildFile; fileRef = D5C5754324C3AEFC004C9C9D /* Right Triangles.pdf */; };
+		D5C5755624C3AEFD004C9C9D /* الإسراء والمعراج.pdf in Resources */ = {isa = PBXBuildFile; fileRef = D5C5754424C3AEFC004C9C9D /* الإسراء والمعراج.pdf */; };
+		D5C5755724C3AEFD004C9C9D /* صلاة الجمعة.pdf in Resources */ = {isa = PBXBuildFile; fileRef = D5C5754524C3AEFC004C9C9D /* صلاة الجمعة.pdf */; };
+		D5C5755824C3AEFD004C9C9D /* Trigonometry.pdf in Resources */ = {isa = PBXBuildFile; fileRef = D5C5754624C3AEFC004C9C9D /* Trigonometry.pdf */; };
+		D5C5755924C3AEFD004C9C9D /* Prefixes and Suffixes.pdf in Resources */ = {isa = PBXBuildFile; fileRef = D5C5754724C3AEFC004C9C9D /* Prefixes and Suffixes.pdf */; };
+		D5C5755A24C3AEFD004C9C9D /* Main Idea.pdf in Resources */ = {isa = PBXBuildFile; fileRef = D5C5754824C3AEFC004C9C9D /* Main Idea.pdf */; };
+		D5C5755B24C3AEFD004C9C9D /* American History.pdf in Resources */ = {isa = PBXBuildFile; fileRef = D5C5754924C3AEFC004C9C9D /* American History.pdf */; };
+		D5C5755C24C3AEFD004C9C9D /* WW2.pdf in Resources */ = {isa = PBXBuildFile; fileRef = D5C5754A24C3AEFC004C9C9D /* WW2.pdf */; };
+		D5C5755D24C3AEFD004C9C9D /* WW1.pdf in Resources */ = {isa = PBXBuildFile; fileRef = D5C5754B24C3AEFC004C9C9D /* WW1.pdf */; };
+		D5C5755E24C3AEFD004C9C9D /* Biology.pdf in Resources */ = {isa = PBXBuildFile; fileRef = D5C5754C24C3AEFC004C9C9D /* Biology.pdf */; };
+		D5C5756124C3AF1B004C9C9D /* Topics.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5C5755F24C3AF1B004C9C9D /* Topics.swift */; };
+		D5C5756224C3AF1B004C9C9D /* Facts.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5C5756024C3AF1B004C9C9D /* Facts.swift */; };
 		F44A754633CD1CC597E156F9 /* Pods_FirebaseTemplate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F46289A53C740F541F362795 /* Pods_FirebaseTemplate.framework */; };
 /* End PBXBuildFile section */
 
@@ -117,6 +143,32 @@
 		D5C5752624C37A5F004C9C9D /* Tutor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tutor.swift; sourceTree = "<group>"; };
 		D5C5752A24C383E9004C9C9D /* TutorsListTableVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutorsListTableVC.swift; sourceTree = "<group>"; };
 		D5C5752C24C38D5C004C9C9D /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		D5C5752E24C3AE7A004C9C9D /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = "../../../EasyLearnDraft/EasyLearn/View Controllers/ViewController.swift"; sourceTree = "<group>"; };
+		D5C5753024C3AE8D004C9C9D /* QuizVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = QuizVC.swift; path = "../../../EasyLearnDraft/EasyLearn/View Controllers/QuizVC.swift"; sourceTree = "<group>"; };
+		D5C5753124C3AE8D004C9C9D /* SubjectTableVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SubjectTableVC.swift; path = "../../../EasyLearnDraft/EasyLearn/View Controllers/SubjectTableVC.swift"; sourceTree = "<group>"; };
+		D5C5753224C3AE8D004C9C9D /* QuizTableVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = QuizTableVC.swift; path = "../../../EasyLearnDraft/EasyLearn/View Controllers/QuizTableVC.swift"; sourceTree = "<group>"; };
+		D5C5753324C3AE8D004C9C9D /* LessonVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LessonVC.swift; path = "../../../EasyLearnDraft/EasyLearn/View Controllers/LessonVC.swift"; sourceTree = "<group>"; };
+		D5C5753424C3AE8D004C9C9D /* SubjectCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SubjectCell.swift; path = "../../../EasyLearnDraft/EasyLearn/View Controllers/SubjectCell.swift"; sourceTree = "<group>"; };
+		D5C5753B24C3AEFC004C9C9D /* Capitalization.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Capitalization.pdf; sourceTree = "<group>"; };
+		D5C5753C24C3AEFC004C9C9D /* قراءة جزء ٢.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "قراءة جزء ٢.pdf"; sourceTree = "<group>"; };
+		D5C5753D24C3AEFC004C9C9D /* قراءة جزء ٣.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "قراءة جزء ٣.pdf"; sourceTree = "<group>"; };
+		D5C5753E24C3AEFC004C9C9D /* قراءة جزء ١.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "قراءة جزء ١.pdf"; sourceTree = "<group>"; };
+		D5C5753F24C3AEFC004C9C9D /* Chemistry.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Chemistry.pdf; sourceTree = "<group>"; };
+		D5C5754024C3AEFC004C9C9D /* Points, Lines, and Planes.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Points, Lines, and Planes.pdf"; sourceTree = "<group>"; };
+		D5C5754124C3AEFC004C9C9D /* Physical Science.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Physical Science.pdf"; sourceTree = "<group>"; };
+		D5C5754224C3AEFC004C9C9D /* صلاة الكسوف.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "صلاة الكسوف.pdf"; sourceTree = "<group>"; };
+		D5C5754324C3AEFC004C9C9D /* Right Triangles.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Right Triangles.pdf"; sourceTree = "<group>"; };
+		D5C5754424C3AEFC004C9C9D /* الإسراء والمعراج.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "الإسراء والمعراج.pdf"; sourceTree = "<group>"; };
+		D5C5754524C3AEFC004C9C9D /* صلاة الجمعة.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "صلاة الجمعة.pdf"; sourceTree = "<group>"; };
+		D5C5754624C3AEFC004C9C9D /* Trigonometry.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Trigonometry.pdf; sourceTree = "<group>"; };
+		D5C5754724C3AEFC004C9C9D /* Prefixes and Suffixes.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Prefixes and Suffixes.pdf"; sourceTree = "<group>"; };
+		D5C5754824C3AEFC004C9C9D /* Main Idea.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Main Idea.pdf"; sourceTree = "<group>"; };
+		D5C5754924C3AEFC004C9C9D /* American History.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "American History.pdf"; sourceTree = "<group>"; };
+		D5C5754A24C3AEFC004C9C9D /* WW2.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = WW2.pdf; sourceTree = "<group>"; };
+		D5C5754B24C3AEFC004C9C9D /* WW1.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = WW1.pdf; sourceTree = "<group>"; };
+		D5C5754C24C3AEFC004C9C9D /* Biology.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Biology.pdf; sourceTree = "<group>"; };
+		D5C5755F24C3AF1B004C9C9D /* Topics.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Topics.swift; path = ../../../EasyLearnDraft/EasyLearn/Models/Topics.swift; sourceTree = "<group>"; };
+		D5C5756024C3AF1B004C9C9D /* Facts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Facts.swift; path = ../../../EasyLearnDraft/EasyLearn/Models/Facts.swift; sourceTree = "<group>"; };
 		F46289A53C740F541F362795 /* Pods_FirebaseTemplate.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FirebaseTemplate.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -179,6 +231,12 @@
 			children = (
 				D209076224B9ED810069B920 /* SignInVC.swift */,
 				D209076424B9EE8D0069B920 /* SignUpVC.swift */,
+				D5C5752E24C3AE7A004C9C9D /* ViewController.swift */,
+				D5C5753324C3AE8D004C9C9D /* LessonVC.swift */,
+				D5C5753224C3AE8D004C9C9D /* QuizTableVC.swift */,
+				D5C5753024C3AE8D004C9C9D /* QuizVC.swift */,
+				D5C5753424C3AE8D004C9C9D /* SubjectCell.swift */,
+				D5C5753124C3AE8D004C9C9D /* SubjectTableVC.swift */,
 				D209076624B9FB0D0069B920 /* HomeVC.swift */,
 				D209076824B9FDC60069B920 /* CreateItemVC.swift */,
 				D209076A24B9FDD80069B920 /* ItemListVC.swift */,
@@ -210,6 +268,7 @@
 		D2C26FD224662807005E16A3 /* FirebaseTemplate */ = {
 			isa = PBXGroup;
 			children = (
+				D5C5753A24C3AEFC004C9C9D /* PDF Files */,
 				D209076124B9ED660069B920 /* ViewControllers */,
 				D2C26FD324662807005E16A3 /* AppDelegate.swift */,
 				D5C5752C24C38D5C004C9C9D /* GoogleService-Info.plist */,
@@ -309,9 +368,37 @@
 			children = (
 				D2C2705124662C9A005E16A3 /* User.swift */,
 				D2C2705624662F3F005E16A3 /* Item.swift */,
+				D5C5756024C3AF1B004C9C9D /* Facts.swift */,
+				D5C5755F24C3AF1B004C9C9D /* Topics.swift */,
 				D5C5752624C37A5F004C9C9D /* Tutor.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		D5C5753A24C3AEFC004C9C9D /* PDF Files */ = {
+			isa = PBXGroup;
+			children = (
+				D5C5753B24C3AEFC004C9C9D /* Capitalization.pdf */,
+				D5C5753C24C3AEFC004C9C9D /* قراءة جزء ٢.pdf */,
+				D5C5753D24C3AEFC004C9C9D /* قراءة جزء ٣.pdf */,
+				D5C5753E24C3AEFC004C9C9D /* قراءة جزء ١.pdf */,
+				D5C5753F24C3AEFC004C9C9D /* Chemistry.pdf */,
+				D5C5754024C3AEFC004C9C9D /* Points, Lines, and Planes.pdf */,
+				D5C5754124C3AEFC004C9C9D /* Physical Science.pdf */,
+				D5C5754224C3AEFC004C9C9D /* صلاة الكسوف.pdf */,
+				D5C5754324C3AEFC004C9C9D /* Right Triangles.pdf */,
+				D5C5754424C3AEFC004C9C9D /* الإسراء والمعراج.pdf */,
+				D5C5754524C3AEFC004C9C9D /* صلاة الجمعة.pdf */,
+				D5C5754624C3AEFC004C9C9D /* Trigonometry.pdf */,
+				D5C5754724C3AEFC004C9C9D /* Prefixes and Suffixes.pdf */,
+				D5C5754824C3AEFC004C9C9D /* Main Idea.pdf */,
+				D5C5754924C3AEFC004C9C9D /* American History.pdf */,
+				D5C5754A24C3AEFC004C9C9D /* WW2.pdf */,
+				D5C5754B24C3AEFC004C9C9D /* WW1.pdf */,
+				D5C5754C24C3AEFC004C9C9D /* Biology.pdf */,
+			);
+			name = "PDF Files";
+			path = "../../EasyLearnDraft/EasyLearn/PDF Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -374,10 +461,28 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D5C5754D24C3AEFD004C9C9D /* Capitalization.pdf in Resources */,
+				D5C5755924C3AEFD004C9C9D /* Prefixes and Suffixes.pdf in Resources */,
+				D5C5755424C3AEFD004C9C9D /* صلاة الكسوف.pdf in Resources */,
+				D5C5755624C3AEFD004C9C9D /* الإسراء والمعراج.pdf in Resources */,
+				D5C5755E24C3AEFD004C9C9D /* Biology.pdf in Resources */,
+				D5C5755224C3AEFD004C9C9D /* Points, Lines, and Planes.pdf in Resources */,
+				D5C5755124C3AEFD004C9C9D /* Chemistry.pdf in Resources */,
+				D5C5755824C3AEFD004C9C9D /* Trigonometry.pdf in Resources */,
+				D5C5755524C3AEFD004C9C9D /* Right Triangles.pdf in Resources */,
+				D5C5755324C3AEFD004C9C9D /* Physical Science.pdf in Resources */,
+				D5C5755C24C3AEFD004C9C9D /* WW2.pdf in Resources */,
+				D5C5755D24C3AEFD004C9C9D /* WW1.pdf in Resources */,
 				D2C26FE024662809005E16A3 /* LaunchScreen.storyboard in Resources */,
 				D209076024B9EA180069B920 /* Main.storyboard in Resources */,
 				D5C5752D24C38D5C004C9C9D /* GoogleService-Info.plist in Resources */,
+				D5C5755024C3AEFD004C9C9D /* قراءة جزء ١.pdf in Resources */,
+				D5C5754E24C3AEFD004C9C9D /* قراءة جزء ٢.pdf in Resources */,
+				D5C5755B24C3AEFD004C9C9D /* American History.pdf in Resources */,
+				D5C5754F24C3AEFD004C9C9D /* قراءة جزء ٣.pdf in Resources */,
 				D2C26FDD24662809005E16A3 /* Preview Assets.xcassets in Resources */,
+				D5C5755724C3AEFD004C9C9D /* صلاة الجمعة.pdf in Resources */,
+				D5C5755A24C3AEFD004C9C9D /* Main Idea.pdf in Resources */,
 				D2C26FDA24662809005E16A3 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -432,19 +537,26 @@
 			buildActionMask = 2147483647;
 			files = (
 				D2C26FD424662807005E16A3 /* AppDelegate.swift in Sources */,
+				D5C5753524C3AE8D004C9C9D /* QuizVC.swift in Sources */,
 				D2C2704C24662C6E005E16A3 /* Networking.swift in Sources */,
 				D2C2705724662F3F005E16A3 /* Item.swift in Sources */,
 				D209076724B9FB0D0069B920 /* HomeVC.swift in Sources */,
 				D2C2704B24662C68005E16A3 /* Optional.swift in Sources */,
+				D5C5753824C3AE8D004C9C9D /* LessonVC.swift in Sources */,
+				D5C5756224C3AF1B004C9C9D /* Facts.swift in Sources */,
 				D2C26FD624662807005E16A3 /* SceneDelegate.swift in Sources */,
+				D5C5752F24C3AE7A004C9C9D /* ViewController.swift in Sources */,
 				D2C2704924662C68005E16A3 /* Codable.swift in Sources */,
 				D2C2704724662C63005E16A3 /* ValidatePassword.swift in Sources */,
 				D2C2704A24662C68005E16A3 /* Keyboard.swift in Sources */,
+				D5C5753724C3AE8D004C9C9D /* QuizTableVC.swift in Sources */,
 				D209076924B9FDC60069B920 /* CreateItemVC.swift in Sources */,
 				D2C2704624662C63005E16A3 /* ImageUploader.swift in Sources */,
 				D209076B24B9FDD80069B920 /* ItemListVC.swift in Sources */,
+				D5C5753624C3AE8D004C9C9D /* SubjectTableVC.swift in Sources */,
 				D5C5752724C37A5F004C9C9D /* Tutor.swift in Sources */,
 				D2C2705224662C9A005E16A3 /* User.swift in Sources */,
+				D5C5753924C3AE8D004C9C9D /* SubjectCell.swift in Sources */,
 				D209076324B9ED810069B920 /* SignInVC.swift in Sources */,
 				D2C2705024662C73005E16A3 /* NetworkingSignUp.swift in Sources */,
 				D2C2704524662C63005E16A3 /* ImageLoader.swift in Sources */,
@@ -452,6 +564,7 @@
 				D5C5752524C3765E004C9C9D /* TutorVC.swift in Sources */,
 				D5C5752B24C383E9004C9C9D /* TutorsListTableVC.swift in Sources */,
 				D2C2704F24662C73005E16A3 /* NetowrkableAuth.swift in Sources */,
+				D5C5756124C3AF1B004C9C9D /* Topics.swift in Sources */,
 				D2C2704D24662C6E005E16A3 /* NetworkingImages.swift in Sources */,
 				D209076524B9EE8D0069B920 /* SignUpVC.swift in Sources */,
 			);
