@@ -36,7 +36,7 @@ class SignInVC: UIViewController {
     
     
     func errorMessage(message: String){
-        let alertController = UIAlertController(title: "Opps🙈", message: message , preferredStyle: .alert)
+        let alertController = UIAlertController(title: "Oops", message: message , preferredStyle: .alert)
         let okAction = UIAlertAction(title: "Ok", style: .cancel)
         alertController.addAction(okAction)
         present(alertController, animated: true)

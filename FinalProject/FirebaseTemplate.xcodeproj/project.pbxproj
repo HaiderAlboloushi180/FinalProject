@@ -10,9 +10,6 @@
 		D209076024B9EA180069B920 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D209075F24B9EA180069B920 /* Main.storyboard */; };
 		D209076324B9ED810069B920 /* SignInVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D209076224B9ED810069B920 /* SignInVC.swift */; };
 		D209076524B9EE8D0069B920 /* SignUpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D209076424B9EE8D0069B920 /* SignUpVC.swift */; };
-		D209076724B9FB0D0069B920 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D209076624B9FB0D0069B920 /* HomeVC.swift */; };
-		D209076924B9FDC60069B920 /* CreateItemVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D209076824B9FDC60069B920 /* CreateItemVC.swift */; };
-		D209076B24B9FDD80069B920 /* ItemListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D209076A24B9FDD80069B920 /* ItemListVC.swift */; };
 		D2C26FD424662807005E16A3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C26FD324662807005E16A3 /* AppDelegate.swift */; };
 		D2C26FD624662807005E16A3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C26FD524662807005E16A3 /* SceneDelegate.swift */; };
 		D2C26FDA24662809005E16A3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2C26FD924662809005E16A3 /* Assets.xcassets */; };
@@ -93,9 +90,6 @@
 		D209075F24B9EA180069B920 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		D209076224B9ED810069B920 /* SignInVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInVC.swift; sourceTree = "<group>"; };
 		D209076424B9EE8D0069B920 /* SignUpVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpVC.swift; sourceTree = "<group>"; };
-		D209076624B9FB0D0069B920 /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
-		D209076824B9FDC60069B920 /* CreateItemVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateItemVC.swift; sourceTree = "<group>"; };
-		D209076A24B9FDD80069B920 /* ItemListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemListVC.swift; sourceTree = "<group>"; };
 		D2C26FD024662807005E16A3 /* EasyLearn.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EasyLearn.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2C26FD324662807005E16A3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D2C26FD524662807005E16A3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -237,9 +231,6 @@
 				D5C5753024C3AE8D004C9C9D /* QuizVC.swift */,
 				D5C5753424C3AE8D004C9C9D /* SubjectCell.swift */,
 				D5C5753124C3AE8D004C9C9D /* SubjectTableVC.swift */,
-				D209076624B9FB0D0069B920 /* HomeVC.swift */,
-				D209076824B9FDC60069B920 /* CreateItemVC.swift */,
-				D209076A24B9FDD80069B920 /* ItemListVC.swift */,
 				D5C5752424C3765E004C9C9D /* TutorVC.swift */,
 				D5C5752A24C383E9004C9C9D /* TutorsListTableVC.swift */,
 			);
@@ -540,7 +531,6 @@
 				D5C5753524C3AE8D004C9C9D /* QuizVC.swift in Sources */,
 				D2C2704C24662C6E005E16A3 /* Networking.swift in Sources */,
 				D2C2705724662F3F005E16A3 /* Item.swift in Sources */,
-				D209076724B9FB0D0069B920 /* HomeVC.swift in Sources */,
 				D2C2704B24662C68005E16A3 /* Optional.swift in Sources */,
 				D5C5753824C3AE8D004C9C9D /* LessonVC.swift in Sources */,
 				D5C5756224C3AF1B004C9C9D /* Facts.swift in Sources */,
@@ -550,9 +540,7 @@
 				D2C2704724662C63005E16A3 /* ValidatePassword.swift in Sources */,
 				D2C2704A24662C68005E16A3 /* Keyboard.swift in Sources */,
 				D5C5753724C3AE8D004C9C9D /* QuizTableVC.swift in Sources */,
-				D209076924B9FDC60069B920 /* CreateItemVC.swift in Sources */,
 				D2C2704624662C63005E16A3 /* ImageUploader.swift in Sources */,
-				D209076B24B9FDD80069B920 /* ItemListVC.swift in Sources */,
 				D5C5753624C3AE8D004C9C9D /* SubjectTableVC.swift in Sources */,
 				D5C5752724C37A5F004C9C9D /* Tutor.swift in Sources */,
 				D2C2705224662C9A005E16A3 /* User.swift in Sources */,

@@ -32,6 +32,19 @@ class ViewController: UIViewController {
     @IBAction func factBtnTapped(_ sender: UIButton) {
         factLabel.text = fact.randomFact()
     }
+
+    @IBAction func signOut(){
+        let alertController = UIAlertController(title: "Sign out!", message: "Are you sure you want to sign out?" , preferredStyle: .alert)
+        let cancelAction = UIAlertAction(title: "Cancel", style: .cancel)
+        alertController.addAction(cancelAction)
+        let okAction = UIAlertAction(title: "Sign out!", style: .destructive) { action in
+            Networking.signOut(success: {
+                self.dismiss(animated: true, completion: nil)
+            })
+        }
+        alertController.addAction(okAction)
+        self.present(alertController, animated: true)
+    }
     
 }
 

@@ -27,7 +27,7 @@ class TutorsListTableVC: UITableViewController {
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath)
         let tutor = tutors[indexPath.row]
-        cell.textLabel?.text = "\(tutor.firstName) \(tutor.lastName), Age: \(tutor.age), Teach \(tutor.teach), Talk on \(tutor.communicate), \(tutor.earn)"
+        cell.textLabel?.text = "I teach \(tutor.teach), \(tutor.firstName) \(tutor.lastName), Age: \(tutor.age), Talk on \(tutor.communicate), \(tutor.earn)"
         cell.textLabel?.font = UIFont.systemFont(ofSize: 11.0)
 
         return cell
