@@ -202,103 +202,136 @@
             </objects>
             <point key="canvasLocation" x="2971.0144927536235" y="847.76785714285711"/>
         </scene>
-        <!--View Controller-->
-        <scene sceneID="kFt-5K-PH4">
-            <objects>
-                <viewController id="fX2-Fi-Ztc" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="OHK-wS-c6i">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                        <viewLayoutGuide key="safeArea" id="HJq-EV-dvx"/>
-                    </view>
-                    <navigationItem key="navigationItem" id="iGR-V1-lrv"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="vi8-UN-vo4" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="3174" y="2252"/>
-        </scene>
-        <!--Tutors-->
+        <!--TutorVC-->
         <scene sceneID="xTF-8y-fvT">
             <objects>
-                <viewController id="noR-ra-nsz" sceneMemberID="viewController">
+                <viewController id="noR-ra-nsz" customClass="TutorVC" customModule="EasyLearn" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="glR-OD-ZPT">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="First Name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="gYv-sy-bRw">
-                                <rect key="frame" x="110" y="137" width="194" height="34"/>
+                                <rect key="frame" x="110" y="248" width="194" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Last Name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="3yZ-Pj-QeJ">
-                                <rect key="frame" x="110" y="182" width="194" height="34"/>
+                                <rect key="frame" x="110" y="293" width="194" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Age" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="I6n-IH-ZXO">
-                                <rect key="frame" x="110" y="227" width="194" height="34"/>
+                                <rect key="frame" x="110" y="338" width="194" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
                             </textField>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Where to communicate" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="nSS-NJ-Eb9">
-                                <rect key="frame" x="110" y="272" width="194" height="34"/>
+                                <rect key="frame" x="110" y="383" width="194" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="What do you teach?" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="rSi-y7-Jhf">
-                                <rect key="frame" x="110" y="317" width="194" height="34"/>
+                                <rect key="frame" x="110" y="428" width="194" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Willing to earn how much?" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="4z2-qw-9fM">
-                                <rect key="frame" x="110" y="363" width="194" height="34"/>
+                                <rect key="frame" x="110" y="474" width="194" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uoI-Mv-nZ5">
-                                <rect key="frame" x="110" y="445" width="194" height="30"/>
+                                <rect key="frame" x="110" y="556" width="194" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Add yourself as a tutor!"/>
+                                <connections>
+                                    <action selector="addTutor" destination="noR-ra-nsz" eventType="touchUpInside" id="Yhi-u4-aHj"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Please fill in these fields to be a tutor" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="l1v-IO-uEs">
-                                <rect key="frame" x="41" y="86" width="333" height="24"/>
+                                <rect key="frame" x="41" y="197" width="333" height="24"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="20"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Or if you're looking for a tutor," textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="f4f-7a-t2M">
-                                <rect key="frame" x="72" y="520" width="270" height="24"/>
+                                <rect key="frame" x="72" y="631" width="270" height="24"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="20"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ioH-Rh-uZW">
-                                <rect key="frame" x="164" y="552" width="86" height="36"/>
+                                <rect key="frame" x="164" y="663" width="86" height="36"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="20"/>
                                 <state key="normal" title="Click me!"/>
                                 <connections>
-                                    <segue destination="ef6-BS-ZpU" kind="show" id="JYu-qK-yTs"/>
+                                    <segue destination="VTz-w6-06l" kind="show" id="vA4-rO-fvH"/>
                                 </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="jp7-On-fM6"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Tutors" image="magnifyingglass" catalog="system" id="5sy-eB-cyq"/>
+                    <navigationItem key="navigationItem" id="hYA-2E-Qd8"/>
+                    <connections>
+                        <outlet property="ageField" destination="I6n-IH-ZXO" id="Loi-tH-hk0"/>
+                        <outlet property="communticatField" destination="nSS-NJ-Eb9" id="0se-Sw-7dS"/>
+                        <outlet property="earnField" destination="4z2-qw-9fM" id="XTs-w3-Xwz"/>
+                        <outlet property="firstNameField" destination="gYv-sy-bRw" id="v1T-EB-TgS"/>
+                        <outlet property="lastNameField" destination="3yZ-Pj-QeJ" id="7GH-VX-5ZR"/>
+                        <outlet property="teachField" destination="rSi-y7-Jhf" id="SwZ-Zs-ZNO"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fqz-Qr-JLG" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2476.811594202899" y="1557.5892857142856"/>
+            <point key="canvasLocation" x="3386.9565217391305" y="1557.5892857142856"/>
+        </scene>
+        <!--Tutors List TableVC-->
+        <scene sceneID="b6H-Wp-gXH">
+            <objects>
+                <tableViewController id="VTz-w6-06l" customClass="TutorsListTableVC" customModule="EasyLearn" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="F9f-gW-jgc">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="cell" textLabel="maQ-Sh-83I" style="IBUITableViewCellStyleDefault" id="th9-F7-poD">
+                                <rect key="frame" x="0.0" y="28" width="414" height="43.5"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="th9-F7-poD" id="r6s-Lq-atp">
+                                    <rect key="frame" x="0.0" y="0.0" width="414" height="43.5"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="maQ-Sh-83I">
+                                            <rect key="frame" x="20" y="0.0" width="374" height="43.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="VTz-w6-06l" id="myP-Jg-feM"/>
+                            <outlet property="delegate" destination="VTz-w6-06l" id="eei-Y8-732"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" id="Fh4-7K-QxZ"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="VWT-GD-L3d" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3387" y="2255"/>
         </scene>
         <!--Create-->
         <scene sceneID="UMa-tf-ksA">
@@ -354,7 +387,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="qQy-zd-x92" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3475" y="1558"/>
+            <point key="canvasLocation" x="4384.057971014493" y="1557.5892857142856"/>
         </scene>
         <!--Item ListVC-->
         <scene sceneID="zg3-xh-a7A">
@@ -412,7 +445,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="MQe-NA-618" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="5107.2463768115949" y="1557.5892857142856"/>
+            <point key="canvasLocation" x="6017.3913043478269" y="1557.5892857142856"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="H1n-WH-16P">
@@ -446,7 +479,7 @@
                         <segue destination="8So-Xe-hVL" kind="relationship" relationship="viewControllers" id="bdX-L0-CL0"/>
                         <segue destination="9Mf-6o-Ond" kind="relationship" relationship="viewControllers" id="xmz-Od-yEU"/>
                         <segue destination="fQX-KS-DZZ" kind="relationship" relationship="viewControllers" id="sGO-LU-kIc"/>
-                        <segue destination="noR-ra-nsz" kind="relationship" relationship="viewControllers" id="R4p-n5-zKx"/>
+                        <segue destination="MbX-CT-d79" kind="relationship" relationship="viewControllers" id="R4p-n5-zKx"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="PjI-ai-ClD" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -470,26 +503,26 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3yj-JG-hG0" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4410" y="1558"/>
+            <point key="canvasLocation" x="5318.840579710145" y="1557.5892857142856"/>
         </scene>
-        <!--Navigation Controller-->
-        <scene sceneID="UoO-S9-Ncs">
+        <!--Tutors-->
+        <scene sceneID="tDg-En-LA2">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="ef6-BS-ZpU" sceneMemberID="viewController">
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="MbX-CT-d79" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Tutors" image="magnifyingglass" catalog="system" id="5sy-eB-cyq"/>
                     <toolbarItems/>
-                    <navigationItem key="navigationItem" id="X9f-Vd-AvM"/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="Qsh-7K-ccU">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="56"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="XUF-Tg-0vd">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
-                        <segue destination="fX2-Fi-Ztc" kind="relationship" relationship="rootViewController" id="q6B-Km-1ET"/>
+                        <segue destination="noR-ra-nsz" kind="relationship" relationship="rootViewController" id="pkF-Vp-gzb"/>
                     </connections>
                 </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="ByB-1N-RBW" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="BLO-wG-bJM" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2477" y="2252"/>
+            <point key="canvasLocation" x="2476.811594202899" y="1557.5892857142856"/>
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>

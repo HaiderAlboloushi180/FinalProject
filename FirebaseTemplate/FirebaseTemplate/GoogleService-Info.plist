@@ -3,34 +3,34 @@
 <plist version="1.0">
 <dict>
 	<key>CLIENT_ID</key>
-	<string>304346583724-am78vu1iu0ss1hi9a06qvcmn880bmmg3.apps.googleusercontent.com</string>
+	<string>526826610866-co8njdgaj33uonm1ffubih511s2mho1v.apps.googleusercontent.com</string>
 	<key>REVERSED_CLIENT_ID</key>
-	<string>com.googleusercontent.apps.304346583724-am78vu1iu0ss1hi9a06qvcmn880bmmg3</string>
+	<string>com.googleusercontent.apps.526826610866-co8njdgaj33uonm1ffubih511s2mho1v</string>
 	<key>API_KEY</key>
-	<string>AIzaSyAwbyMUmOwcyaJq3G1htV0vYLdnpPS4SAE</string>
+	<string>AIzaSyBvTtyffTV4SSeEVllxHb7ycQu53jjIJvg</string>
 	<key>GCM_SENDER_ID</key>
-	<string>304346583724</string>
+	<string>526826610866</string>
 	<key>PLIST_VERSION</key>
 	<string>1</string>
 	<key>BUNDLE_ID</key>
 	<string>com.hab.EasyLearn</string>
 	<key>PROJECT_ID</key>
-	<string>khatma-3e0cb</string>
+	<string>easylearn-19167</string>
 	<key>STORAGE_BUCKET</key>
-	<string>khatma-3e0cb.appspot.com</string>
+	<string>easylearn-19167.appspot.com</string>
 	<key>IS_ADS_ENABLED</key>
-	<false/>
+	<false></false>
 	<key>IS_ANALYTICS_ENABLED</key>
-	<false/>
+	<false></false>
 	<key>IS_APPINVITE_ENABLED</key>
-	<true/>
+	<true></true>
 	<key>IS_GCM_ENABLED</key>
-	<true/>
+	<true></true>
 	<key>IS_SIGNIN_ENABLED</key>
-	<true/>
+	<true></true>
 	<key>GOOGLE_APP_ID</key>
-	<string>1:304346583724:ios:901404680d162d2c124509</string>
+	<string>1:526826610866:ios:48d605001749865362e9ab</string>
 	<key>DATABASE_URL</key>
-	<string>https://khatma-3e0cb.firebaseio.com</string>
+	<string>https://easylearn-19167.firebaseio.com</string>
 </dict>
 </plist>
