@@ -15,5 +15,4 @@ struct Tutor: Codable{
     var age: String
     var communicate: String
     var teach: String
-    var earn: String
 }

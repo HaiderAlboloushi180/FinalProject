@@ -15,7 +15,6 @@ class TutorVC: UIViewController {
     @IBOutlet var ageField: UITextField!
     @IBOutlet var communticatField: UITextField!
     @IBOutlet var teachField: UITextField!
-    @IBOutlet var earnField: UITextField!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -30,8 +29,7 @@ class TutorVC: UIViewController {
         let age = ageField.text!
         let communicate = communticatField.text!
         let teach = teachField.text!
-        let earn = earnField.text!
-        let tutor = Tutor(firstName: firstName, lastName: lastName, age: age, communicate: communicate, teach: teach, earn: earn)
+        let tutor = Tutor(firstName: firstName, lastName: lastName, age: age, communicate: communicate, teach: teach)
         
         Networking.createItem(tutor, inCollection: "tutors", success: {
             self.alert(title: "Succesful✅", message: "You succesfully added yourself as a tutor!")

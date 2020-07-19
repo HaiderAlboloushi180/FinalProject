@@ -81,6 +81,7 @@
 		D5C5755E24C3AEFD004C9C9D /* Biology.pdf in Resources */ = {isa = PBXBuildFile; fileRef = D5C5754C24C3AEFC004C9C9D /* Biology.pdf */; };
 		D5C5756124C3AF1B004C9C9D /* Topics.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5C5755F24C3AF1B004C9C9D /* Topics.swift */; };
 		D5C5756224C3AF1B004C9C9D /* Facts.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5C5756024C3AF1B004C9C9D /* Facts.swift */; };
+		D5C5756624C452E6004C9C9D /* TutorDetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5C5756524C452E5004C9C9D /* TutorDetailsVC.swift */; };
 		F44A754633CD1CC597E156F9 /* Pods_FirebaseTemplate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F46289A53C740F541F362795 /* Pods_FirebaseTemplate.framework */; };
 /* End PBXBuildFile section */
 
@@ -163,6 +164,7 @@
 		D5C5754C24C3AEFC004C9C9D /* Biology.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Biology.pdf; sourceTree = "<group>"; };
 		D5C5755F24C3AF1B004C9C9D /* Topics.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Topics.swift; path = ../../../EasyLearnDraft/EasyLearn/Models/Topics.swift; sourceTree = "<group>"; };
 		D5C5756024C3AF1B004C9C9D /* Facts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Facts.swift; path = ../../../EasyLearnDraft/EasyLearn/Models/Facts.swift; sourceTree = "<group>"; };
+		D5C5756524C452E5004C9C9D /* TutorDetailsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutorDetailsVC.swift; sourceTree = "<group>"; };
 		F46289A53C740F541F362795 /* Pods_FirebaseTemplate.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FirebaseTemplate.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -233,6 +235,7 @@
 				D5C5753124C3AE8D004C9C9D /* SubjectTableVC.swift */,
 				D5C5752424C3765E004C9C9D /* TutorVC.swift */,
 				D5C5752A24C383E9004C9C9D /* TutorsListTableVC.swift */,
+				D5C5756524C452E5004C9C9D /* TutorDetailsVC.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -551,6 +554,7 @@
 				D2C2704824662C63005E16A3 /* DateFromatter.swift in Sources */,
 				D5C5752524C3765E004C9C9D /* TutorVC.swift in Sources */,
 				D5C5752B24C383E9004C9C9D /* TutorsListTableVC.swift in Sources */,
+				D5C5756624C452E6004C9C9D /* TutorDetailsVC.swift in Sources */,
 				D2C2704F24662C73005E16A3 /* NetowrkableAuth.swift in Sources */,
 				D5C5756124C3AF1B004C9C9D /* Topics.swift in Sources */,
 				D2C2704D24662C6E005E16A3 /* NetworkingImages.swift in Sources */,
